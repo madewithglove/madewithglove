@@ -1,0 +1,128 @@
+*{
+  font-family: "inter", serif;
+}
+  /* Ensure no extra margin or padding affects width */
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*navbar*/
+
+.navbar-light .navbar-toggler-icon  {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(244, 164, 192)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.nav-link{
+  color: #F4A4C0!important;
+}
+
+.navbar-nav .nav-link {
+  color: #F4A4C0;
+  font-size: large;
+  text-decoration: none;
+  float: right;
+  text-align: center;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000!important;
+  background-color: #F4A4C0;
+  font-weight: bold;
+}
+.navbar-nav{
+  margin-left:auto;
+  color: #000;
+}
+
+
+
+/*body*/
+
+.main {
+  color:#F4A4C0;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+  
+}
+.row{
+  padding:2%;
+}
+
+.line {
+  font-family: "Inria",Serif;
+  font-weight: 300;
+  font-size:24px;
+  padding-top: 28px;
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+
+.AMCtitle,.BTRtitle {
+  font-weight:bold;
+  text-align: center;
+  font-size: 22px;
+}
+.AMCtitle{
+  padding-top:35px;
+}
+
+.AMCtext{
+  font-size: 16px;
+  text-align:start;
+}
+.BTRtext{
+  font-size: 16px;
+  text-align: start;
+}
+
+.charityIMG{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+
+/*footer*/
+
+hr{
+  background-color: transparent;
+}
+
+footer {
+background-color: #F4A4C0;
+color: #000;
+font-family: "Inria",Serif;
+font-weight: 700;
+font-style: bold;
+padding:0%;
+}
+
+
+/* Small & Extra Small Screens (Phones) */
+
+@media (max-width: 767px) {  
+  .col-xs-12 .col-sm-12 {
+    width: 100% !important; /* 1 image per row */
+  }
+
+  .main{
+    font-size:20px;
+  }
+
+  .line{
+    left:0px;
+    padding:10px;
+    font-size:18px;
+  }
+}
+
+/* Larger Screens (Tablets & Laptops) */
+@media (min-width: 768px) {  
+  .col-md-3, .col-lg-3 {
+    width: 50% !important; /* 2 image per row */
+  }
+}
