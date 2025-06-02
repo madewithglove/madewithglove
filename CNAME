@@ -1,0 +1,4 @@
+madewithglove.github.io/madewithglove/gallery.html
+git add CNAME
+git commit -m "Restore CNAME for custom domain"
+git push
